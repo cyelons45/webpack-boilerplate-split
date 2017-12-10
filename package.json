@@ -1,0 +1,29 @@
+{
+  "name": "webpack-boilerplate-split",
+  "version": "0.1.0",
+  "description": "A webpack boilerplate with separate development and production configurations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thornecc/webpack-boilerplate-split.git"
+  },
+  "keywords": [
+    "webpack",
+    "boilerplate",
+    "babel",
+    "web"
+  ],
+  "author": {
+    "name": "Alex Thorne",
+    "email": "alex@thorne.io",
+    "url": "https://alexthorne.io"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thornecc/webpack-boilerplate-split/issues"
+  },
+  "homepage": "https://github.com/thornecc/webpack-boilerplate-split#readme"
+}
