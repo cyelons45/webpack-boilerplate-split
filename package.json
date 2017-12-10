@@ -25,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/thornecc/webpack-boilerplate-split/issues"
   },
-  "homepage": "https://github.com/thornecc/webpack-boilerplate-split#readme"
+  "homepage": "https://github.com/thornecc/webpack-boilerplate-split#readme",
+  "devDependencies": {
+    "webpack": "^3.10.0"
+  }
 }
