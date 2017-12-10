@@ -1,4 +1,8 @@
 const path = require('path')
+const CleanWebpackPlugin = require('clean-webpack-plugin')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
+
+const outDir = 'public'
 
 module.exports = {
   entry: {
@@ -6,7 +10,7 @@ module.exports = {
   },
   output: {
     filename: '[name].bundle.js',
-    path: path.resolve(__dirname, 'public')
+    path: path.resolve(__dirname, outDir)
   },
   module: {
     loaders: [
@@ -24,5 +28,12 @@ module.exports = {
       { test: /\.(jpg|png|gif|svg|tiff)$/, use: 'file-loader' },
       { test: /\.(woff|woff2|eot|ttf|otf)$/, use: 'file-loader' }
     ]
-  }
+  },
+  plugins: [
+    new CleanWebpackPlugin([outDir]),
+    new HtmlWebpackPlugin({
+      title: 'Split Webpack Boilerplate',
+      inject: 'body'
+    })
+  ]
 }
