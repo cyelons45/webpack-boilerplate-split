@@ -1,9 +1,9 @@
 # Split Webpack Boilerplate
 
-A webpack boilerplate with separate development and production configurations
-and no repeated code.
+A webpack boilerplate with separate development and production configurations.
 
-If you want to know exactly how the boilerplate code was put together, please
-read my [blog
-post](https://alexthorne.io/2017/12/10/webpack-boilerplate-from-scratch/) about
-it.
+## Starter Branch
+
+This branch contains no webpack configuration. It is simply a starting point on
+which to build your own configuration as you following my [webpack configuration
+tutorial](https://alexthorne.io/2017/12/10/webpack-boilerplate-from-scratch/).
